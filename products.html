@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>products</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style1.css">
+
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Nav Bar -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+
+    <div> <a class="navbar-brand" href="index.html">Arcade</a></div>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav ml-auto mr-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">
+            <div class="icons8-home"></div>
+          </a></li>
+        <li class="nav-item"><a class="nav-link" href="products.html" style="color:white;">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html" style="color:white;">features</a></li>
+        <li class="nav-item"><a class="nav-link" href="#team" style="color:white;">support</a></li>
+        <li class="nav-item"><a class="nav-link" href="cart.html" style="color:white;">Cart</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html" style="color:white;">contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="profile.html" style="color:white;"><i
+              class="fa-solid fa-user"></i></i></a></li>
+        <li class="nav-item"><button type="button" class="btn btn-outline-light"><a href="#"
+              style="color:white; padding-left:10px;">Login</a></button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--nav bar-->
+  <main>
+    <div class="container">
+      <div class="card card1">
+        <div class="row padding">
+          <div class="col heading">
+            <a href="index.html" class="link headline">home</a> <span>></span>
+            <a href="https://www.dwtc.com/en" class="link headline">world trade center</a> <span>></span>
+            <a href="#" class="link headline">Arcade</a>
+          </div>
+        </div>
+        <div class="row padding">
+          <div class="col-lg-12 col-md-6 col-sm-3">
+            <table>
+              <tr>
+                <td><img class="img" src="img/logo.jpg" style='float: left;' alt=""></td>
+                <td><a class="title" href="#">Arcade</a>
+                  <p class="headline">in Dubai World Trade Center - DWTC, UAE</p>
+                  <p style="font-size:13px;">iphones,ipod,laptops</p>
+                  <p style="font-size:13px;">Min. order: AED 0.00</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <section id="tabs" class="project-tab menu">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 tabs">
+                <nav>
+                  <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#menu1" role="tab"
+                      aria-controls="nav-home" aria-selected="true"><img src="img/product.png" alt="menu tab"
+                        height="25" class="img1">Products</a>
+                    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#menu2" role="tab"
+                      aria-controls="nav-profile" aria-selected="false"><img src="img/info.png" alt="menu tab"
+                        height="25" class="img1">reviews</a>
+                    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#menu3" role="tab"
+                      aria-controls="nav-contact" aria-selected="false"><img src="img/review.png" alt="menu tab"
+                        height="25" class="img1">info</a>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Tabs content -->
+        <div class="tab-content" id="tabs">
+          <div class="tab-pane fade show active" id="menu1">
+            <!--content 1-->
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3 pr-0 mt-2">
+                  <div class="card  category  sticky">
+                    <a href="/" class="align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
+                      style="padding-left:1px;">
+                      <svg class="me-2" width="40" height="32"></svg>
+                      <span class="fs-1">Categories</span>
+                    </a>
+
+                    <ul class="nav nav-pills flex-column mb-auto">
+                      <li>
+                        <a href="#" class="nav-link category-link" aria-current="page">
+                          <svg class="bi pe-none me-2" width="16" height="16"></svg>
+                          Most Selling
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="nav-link category-link">
+                          <svg class="bi pe-none me-2" width="16" height="16"></svg>
+                          Exclusive Offers
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="nav-link category-link">
+                          <svg class="bi pe-none me-2" width="16" height="16"></svg>
+                          Exclusive Offer
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="nav-link category-link">
+                          <svg class="bi pe-none me-2" width="16" height="16"></svg>
+                          Shop by brand
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="nav-link category-link">
+                          <svg class="bi pe-none me-2" width="16" height="16"></svg>
+                          Hot deals
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="nav-link category-link">
+                          <svg class="bi pe-none me-2" width="16" height="16"></svg>
+                          IPhone by model
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="nav-link category-link">
+                          <svg class="bi pe-none me-2" width="16" height="16"></svg>
+                          new versions
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="nav-link category-link">
+                          <svg class="bi pe-none me-2" width="16" height="16"></svg>
+                          shop by features
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="nav-link category-link">
+                          <svg class="bi pe-none me-2" width="16" height="16"></svg>
+                          Price below 1500 AED
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="nav-link category-link">
+                          <svg class="bi pe-none me-2" width="16" height="16"></svg>
+                          Price below 2000 AED
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="nav-link category-link">
+                          <svg class="bi pe-none me-2" width="16" height="16"></svg>
+                          Shocking offers
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="nav-link category-link">
+                          <svg class="bi pe-none me-2" width="16" height="16"></svg>
+                          All models
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+
+                </div>
+                <div class="col-lg-5 pl-0 pr-0">
+                  <div class="container list">
+                    <div class="input-group rounded search" style="padding-left:0px;">
+                      <input type="search" class="form-control rounded" placeholder="Search product" aria-label="Search"
+                        aria-describedby="search-addon" />
+                      <span class="input-group-text border-0" id="search-addon">
+                        <i class="fas fa-search"></i>
+                      </span>
+                    </div>
+                  </div>
+
+
+                  <!-- list group -->
+                  <!-- dropdown1 -->
+                  <div class="container list">
+                    <button
+                      class="btn btn-light accordion dropdown-toggle  px-3 py-2 mb-2 mt-2 clickable text-truncate button-style"
+                      type="button">
+                      <h3>Most Selling</h3>
+                    </button>
+                    <div class="panel">
+                      <div class="list-group list-style">
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="row">
+                            <table>
+                              <tr>
+                                <td>
+                                  <div class="col button">
+                                    <img src="img/d.jfif" alt="" class="img-product">
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="col button">
+                                    <h5 class="mb-1 mt-2 ml-2">Iphone 11 pro</h5>
+                                    <p class="mb-1 font"> Use Face ID with a mask,With iOS 15.4, you can use Face ID
+                                      while wearing a mask. Easily unlock your iPhone, use Apple Pay, and authorize
+                                      apps and passwords.</p>
+                                    <span class="currency ml-2">AED 2000</span>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="col button">
+                                    <a href="product.html"
+                                      class="btn btn-success btn-md float-end my_button"><b>+</b></a>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="row">
+                            <table>
+                              <tr>
+                                <td>
+                                  <div class="col button">
+                                    <img src="img/a.jpg" alt="" class="img-product">
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="col button">
+                                    <h5 class="mb-1 mt-2 ml-2">Iphone 12</h5>
+                                    <p class="mb-1 font"> Even when your mouth and nose are covered, your iPhone can
+                                      now recognize you by analyzing the unique characteristics around your eyes.1</p>
+                                    <span class="currency ml-2">AED 3000</span>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="col button">
+                                    <a href="product.html"
+                                      class="btn btn-success btn-md float-end my_button"><b>+</b></a>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </a>
+
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- dropdown1 -->
+
+                  <!-- dropdown 2 -->
+                  <div class="container list">
+                    <button
+                      class="btn btn-light accordion dropdown-toggle px-3 py-2 mb-2 mt-2 clickable text-truncate button-style"
+                      type="button">
+                      <h3>Exclusive Offers</h3>
+                    </button>
+                    <div class="panel">
+                      <div class="list-group list-style">
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="row">
+                            <table>
+                              <tr>
+                                <td>
+                                  <div class="col button">
+                                    <img src="img/a.jpg" alt="" class="img-product">
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="col button">
+                                    <h5 class="mb-1 mt-2 ml-2">Iphone Mini</h5>
+                                    <p class="mb-1 font">Even when your mouth and nose are covered, your iPhone can
+                                      now recognize you by analyzing the unique characteristics around your eyes.</p>
+                                    <span class="currency ml-2">AED 2500</span>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="col button">
+                                    <a href="product.html"
+                                      class="btn btn-success btn-md float-end my_button"><b>+</b></a>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="row">
+                            <table>
+                              <tr>
+                                <td>
+                                  <div class="col button">
+                                    <img src="img/b.jpg" alt="" class="img-product">
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="col button">
+                                    <h5 class="mb-1 mt-2 ml-2">Iphone 13 pro</h5>
+                                    <p class="mb-1 font">Inspired by the portraits you take in the Camera app,
+                                      Portrait mode in FaceTime blurs your background and puts the focus on you.</p>
+                                    <span class="currency ml-2">AED 3500</span>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="col button">
+                                    <a href="product.html"
+                                      class="btn btn-success btn-md float-end my_button"><b>+</b></a>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </a>
+
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- dropdown 2 -->
+
+                  <!-- dropdown 3 -->
+                  <div class="container list">
+                    <button
+                      class="btn btn-light accordion dropdown-toggle px-3 py-2 mb-2 mt-2 clickable text-truncate button-style"
+                      type="button">
+                      <h3>Shop By Brand</h3>
+                    </button>
+                    <div class="panel">
+                      <div class="list-group list-style">
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="row">
+                            <table>
+                              <tr>
+                                <td>
+                                  <div class="col button">
+                                    <img src="img/e.webp" alt="" class="img-product">
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="col button">
+                                    <h5 class="mb-1 mt-2 ml-2">Iphone 12 Max</h5>
+                                    <p class="mb-1 font">Inspired by the portraits you take in the Camera app,
+                                      Portrait mode in FaceTime blurs your background and puts the focus on you.</p>
+                                    <span class="currency ml-2">AED 2500</span>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="col button">
+                                    <a href="product.html"
+                                      class="btn btn-success btn-md float-end my_button"><b>+</b></a>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="row">
+                            <table>
+                              <tr>
+                                <td>
+                                  <div class="col button">
+                                    <img src="img/c.webp" alt="" class="img-product">
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="col button">
+                                    <h5 class="mb-1 mt-2 ml-2">Iphone 13 pro</h5>
+                                    <p class="mb-1 font">Inspired by the portraits you take in the Camera app,
+                                      Portrait mode in FaceTime blurs your background and puts the focus on you.</p>
+                                    <span class="currency ml-2">AED 5000</span>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="col button">
+                                    <a href="product.html"
+                                      class="btn btn-success btn-md float-end my_button"><b>+</b></a>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </a>
+
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- dropdown 3-->
+
+                  <!-- dropdown 4-->
+                  <div class="container list">
+                    <button
+                      class="btn btn-light accordion dropdown-toggle px-3 py-2 mb-2 mt-2 clickable text-truncate button-style"
+                      type="button">
+                      <h3>Hot Deals</h3>
+                    </button>
+                    <div class="panel">
+                      <div class="list-group list-style">
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="row">
+                            <table>
+                              <tr>
+                                <td>
+                                  <div class="col button">
+                                    <img src="img/a.jpg" alt="" class="img-product">
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="col button">
+                                    <h5 class="mb-1 mt-2 ml-2">Iphone 11 Pro</h5>
+                                    <p class="mb-1 font">Use Face ID with a mask,With iOS 15.4, you can use Face ID
+                                      while wearing a mask. Easily unlock your iPhone, use Apple Pay, and authorize
+                                      apps and passwords</p>
+                                    <span class="currency ml-2">AED 2500</span>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="col button">
+                                    <a href="product.html"
+                                      class="btn btn-success btn-md float-end my_button"><b>+</b></a>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="row">
+                            <table>
+                              <tr>
+                                <td>
+                                  <div class="col button">
+                                    <img src="img/d.jfif" alt="" class="img-product">
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="col button">
+                                    <h5 class="mb-1 mt-2 ml-2">Iphone Max</h5>
+                                    <p class="mb-1 font">Inspired by the portraits you take in the Camera app,
+                                      Portrait mode in FaceTime blurs your background and puts the focus on you.</p>
+                                    <span class="currency ml-2">AED 4000</span>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="col button">
+                                    <a href="product.html"
+                                      class="btn btn-success btn-md float-end my_button"><b>+</b></a>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </a>
+
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- dropdown 4-->
+                  <!-- dropdown 5-->
+                  <div class="container list">
+                    <button
+                      class="btn btn-light accordion dropdown-toggle px-3 py-2 mb-2 mt-2 clickable text-truncate button-style"
+                      type="button">
+                      <h3>Iphone By Model</h3>
+                    </button>
+                    <div class="panel">
+                      <div class="list-group list-style">
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="row">
+                            <table>
+                              <tr>
+                                <td>
+                                  <div class="col button">
+                                    <img src="img/b.jpg" alt="" class="img-product">
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="col button">
+                                    <h5 class="mb-1 mt-2 ml-2">Iphone 13 Pro</h5>
+                                    <p class="mb-1 font">Inspired by the portraits you take in the Camera app,
+                                      Portrait mode in FaceTime blurs your background and puts the focus on you.</p>
+                                    <span class="currency ml-2">AED 2000</span>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="col button">
+                                    <a href="product.html"
+                                      class="btn btn-success btn-md float-end my_button"><b>+</b></a>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="row">
+                            <table>
+                              <tr>
+                                <td>
+                                  <div class="col button">
+                                    <img src="img/e.webp" alt="" class="img-product">
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="col button">
+                                    <h5 class="mb-1 mt-2 ml-2">Iphone 11 Mini</h5>
+                                    <p class="mb-1 font">Multiple device support,Connect over FaceTime on your iPhone
+                                      while watching video on your Apple TV or listening to music on your HomePod</p>
+                                    <span class="currency ml-2">AED 4000</span>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="col button">
+                                    <a href="product.html"
+                                      class="btn btn-success btn-md float-end my_button"><b>+</b></a>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </a>
+
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- dropdown 5-->
+
+                  <!-- dropdown 6-->
+                  <div class="container list">
+                    <button
+                      class="btn btn-light accordion dropdown-toggle px-3 py-2 mb-2 mt-2 clickable text-truncate button-style"
+                      type="button">
+                      <h3>Shocking Offers</h3>
+                    </button>
+                    <div class="panel">
+                      <div class="list-group list-style">
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="row">
+                            <table>
+                              <tr>
+                                <td>
+                                  <div class="col button">
+                                    <img src="img/b.jpg" alt="" class="img-product">
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="col button">
+                                    <h5 class="mb-1 mt-2 ml-2">Iphone 10</h5>
+                                    <p class="mb-1 font">SharePlay:Share your screen to bring web pages, apps, and
+                                      more into your conversation on FaceTime.</p>
+                                    <span class="currency ml-2">AED 2000</span>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="col button">
+                                    <a href="product.html"
+                                      class="btn btn-success btn-md float-end my_button"><b>+</b></a>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="row">
+                            <table>
+                              <tr>
+                                <td>
+                                  <div class="col button">
+                                    <img src="img/e.webp" alt="" class="img-product">
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="col button">
+                                    <h5 class="mb-1 mt-2 ml-2">Iphone 11 Mini</h5>
+                                    <p class="mb-1 font">Multiple device support,Connect over FaceTime on your iPhone
+                                      while watching video on your Apple TV or listening to music on your HomePod</p>
+                                    <span class="currency ml-2">AED 4000</span>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="col button">
+                                    <a href="product.html"
+                                      class="btn btn-success btn-md float-end my_button"><b>+</b></a>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </a>
+
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- dropdown 6 -->
+
+                  <!-- dropdown 7-->
+                  <div class="container list">
+                    <button
+                      class="btn btn-light accordion dropdown-toggle px-3 py-2 mb-2 mt-2 clickable text-truncate button-style"
+                      type="button">
+                      <h3>All Models</h3>
+                    </button>
+                    <div class="panel mb-3">
+                      <div class="list-group list-style">
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="row">
+                            <table>
+                              <tr>
+                                <td>
+                                  <div class="col button">
+                                    <img src="img/c.webp" alt="" class="img-product">
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="col button">
+                                    <h5 class="mb-1 mt-2 ml-2">Iphone 10</h5>
+                                    <p class="mb-1 font">SharePlay:Share your screen to bring web pages, apps, and
+                                      more into your conversation on FaceTime.</p>
+                                    <span class="currency ml-2">AED 2000</span>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="col button">
+                                    <a href="product.html"
+                                      class="btn btn-success btn-md float-end my_button"><b>+</b></a>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                          <div class="row">
+                            <table>
+                              <tr>
+                                <td>
+                                  <div class="col button">
+                                    <img src="img/a.jpg" alt="" class="img-product">
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="col button">
+                                    <h5 class="mb-1 mt-2 ml-2">Iphone 13 pro</h5>
+                                    <p class="mb-1 font">Inspired by the portraits you take in the Camera app,
+                                      Portrait mode in FaceTime blurs your background and puts the focus on you</p>
+                                    <span class="currency ml-2">AED 6000</span>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="col button">
+                                    <a href="product.html"
+                                      class="btn btn-success btn-md float-end my_button"><b>+</b></a>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </a>
+
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- dropdown 7 -->
+                </div>
+                <!-- list group -->
+                <div class="col-lg-4 cart mt-5">
+                  <div class="card bx sticky" style="width: 18rem;">
+                    <div class="card-title cardh4">
+                      <h4>Your Cart</h4>
+                    </div>
+                    <div class="cardstyle">
+                      <img src="img/imgsvg.svg" alt="" class="img-cart">
+                      <h5 class="cart"><b>your cart is empty</b></h5>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!--content1-->
+        <div class="tab-pane fade" id="menu2">
+          <!-- tab 2 -->
+          <p class="f-18 f-400">(200) Reviews</p>
+          <!-- tab 2 -->
+        </div>
+        <div class="tab-pane fade" id="menu3">
+          Tab 3 content
+        </div>
+      </div>
+      <!-- Tabs content -->
+
+    </div>
+    </div>
+
+    </div>
+  </main>
+
+  </main>
+  <!-- Footer -->
+
+  <footer class="main-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <aside class="footer-widget">
+            <h6>Follow us</h6>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">LinkedIn</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">YouTube</a></li>
+              <li><a href="#">Tumblr</a></li>
+            </ul>
+          </aside>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <aside class="footer-widget">
+            <h6>Site Map</h6>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">features</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Cart</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </aside>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <aside class="footer-widget">
+            <h6>About</h6>
+            <ul>
+              <li><a class="link-secondary" href="#">Team</a></li>
+              <li><a class="link-secondary" href="#">Locations</a></li>
+              <li><a class="link-secondary" href="#">Privacy</a></li>
+              <li><a class="link-secondary" href="#">Terms</a></li>
+            </ul>
+          </aside>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <aside class="footer-widget">
+            <address>
+              <h2>ARCADE</h2>
+              <p class="address">this is an online iphone App store.you will always grab our stuffs.</p>
+              <p><strong>Email: </strong> <a href="mailto:someone@something.com">someone@something.com</a></p>
+              <p><strong>Phone: </strong> <a href="tel:+919876543210">+91 987 654 3210</a></p>
+            </address>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer -->
+  <!-- Copy -->
+  <section class="copy">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p class="address">Copyright &copy; 2020. All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Copy -->
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+  </script>
+</body>
+
+</html>
